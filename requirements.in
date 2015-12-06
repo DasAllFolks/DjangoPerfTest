@@ -1,4 +1,5 @@
 django
+django-debug-panel
 django-debug-toolbar
 pip-tools
 virtualenv

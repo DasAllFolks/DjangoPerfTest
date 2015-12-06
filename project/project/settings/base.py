@@ -41,9 +41,11 @@ INSTALLED_APPS = [
 
     # Third-party apps
     'debug_toolbar',
+    'debug_panel',
 ]
 
 MIDDLEWARE_CLASSES = [
+    # Django built-in middleware
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,6 +54,9 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    # Third-party middleware
+    'debug_panel.middleware.DebugPanelMiddleware',
 ]
 
 ROOT_URLCONF = 'project.urls'
