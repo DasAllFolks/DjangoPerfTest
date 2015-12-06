@@ -1,3 +1,5 @@
+## STACK-SPECIFIC IGNORES
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -59,3 +61,7 @@ target/
 # Editor files
 *~
 *#
+
+## PROJECT-SPECIFIC IGNORES
+
+project/project/settings/dev.py
