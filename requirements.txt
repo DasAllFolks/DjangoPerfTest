@@ -5,8 +5,10 @@
 #    pip-compile requirements.in
 #
 click==6.2                # via pip-tools
+django-debug-toolbar==1.4
 django==1.9
 first==2.0.1              # via pip-tools
 pip-tools==1.2.0
 six==1.10.0               # via pip-tools
+sqlparse==0.1.18          # via django-debug-toolbar
 virtualenv==13.1.2
